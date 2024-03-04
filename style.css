@@ -16,16 +16,32 @@
 .text p {
     margin-left: 650px;
     margin-top: 50px;
-    color:rgb(255, 255, 0); /* Adjust text color */
+    color:rgb(0, 0, 0); /* Adjust text color */
     text-indent:50px;
 font-size: xx-large;
     padding: 0px;
+    text-transform: capitalize;
     
 
   }
   body
   {
-    
+    background-color: black;
     
   }
   
+  #link a{
+    margin-inline-start: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: capitalize;
+    
+  }
+   a:hover
+  {
+    background-color: rgb(255, 255, 255);
+  }
+  #image
+  {
+    background-color: black;
+  }
