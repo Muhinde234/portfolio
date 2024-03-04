@@ -1,0 +1,30 @@
+.image{
+    position: relative;
+    display: inline-block;
+ padding: 20px,30px,20px,20px;  
+    
+}
+.text
+{
+    position: absolute;
+    top: 80%; 
+    left: 20%; 
+    transform: translate(-60%, -60%);
+    
+    padding: 10px;
+}
+.text p {
+    margin-left: 0px;
+    margin-top: 20px;
+    color:rgb(255, 255, 255); /* Adjust text color */
+    text-indent: 20px;
+
+    padding: 0px;
+    
+
+  }
+  body
+  {
+    background-color: black;
+    
+  }
